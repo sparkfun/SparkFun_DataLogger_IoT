@@ -34496,6 +34496,7 @@ Output Discharge: 530Ω Typ</text>
 <text x="165.1" y="142.24" size="1.778" layer="95" font="vector">TP2</text>
 <text x="264.16" y="147.32" size="1.778" layer="95" font="vector">TP3</text>
 <text x="81.28" y="43.18" size="1.778" layer="95" font="vector">TP4</text>
+<text x="386.08" y="167.64" size="1.778" layer="97" font="vector">Unshifted 7-bit I2C address: 0x36</text>
 </plain>
 <instances>
 <instance part="FRAME1" gate="G$1" x="0" y="0" smashed="yes"/>
