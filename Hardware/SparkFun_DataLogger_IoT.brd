@@ -225,11 +225,11 @@
 Lead-Free HASL Finish
 Red Solder Resist
 White Silkscreen
-Controlled Impedance: JLC7628
+Stackup: JLC7628
 Material: TG155
 
 </text>
-<text x="45.72" y="0.381" size="1.778" layer="16" font="vector" ratio="15" rot="SMR0" align="bottom-center">v10</text>
+<text x="45.72" y="0.381" size="1.778" layer="16" font="vector" ratio="15" rot="SMR0" align="bottom-center">v11</text>
 <text x="-1.27" y="43.18" size="1.778" layer="47" font="vector" ratio="15" align="bottom-right">Dimensions
 In Inches</text>
 <wire x1="42.926" y1="18.415" x2="43.815" y2="18.415" width="0.2032" layer="22"/>
@@ -590,47 +590,6 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <wire x1="0" y1="-8.89" x2="0" y2="0" width="0.2032" layer="51"/>
 <wire x1="0" y1="-8.89" x2="101.6" y2="-8.89" width="0.2032" layer="51"/>
 <text x="1.27" y="-6.35" size="1.778" layer="51" font="vector" align="top-left">(Add these comments when uploading gerbers.)</text>
-</package>
-<package name="OSHW-LOGO-S">
-<description>&lt;h3&gt;Open-Source Hardware (OSHW) Logo - Small - Silkscreen&lt;/h3&gt;
-&lt;p&gt;Silkscreen logo for open-source hardware designs.&lt;/p&gt;
-&lt;p&gt;Devices using:
-&lt;ul&gt;&lt;li&gt;OSHW_LOGO&lt;/li&gt;&lt;/ul&gt;&lt;/p&gt;</description>
-<polygon width="0.15" layer="21">
-<vertex x="0.3947" y="-0.9528" curve="9.498218"/>
-<vertex x="0.5465" y="-0.8746"/>
-<vertex x="0.9235" y="-1.182"/>
-<vertex x="1.182" y="-0.9235"/>
-<vertex x="0.8746" y="-0.5465" curve="19.000773"/>
-<vertex x="1.0049" y="-0.232"/>
-<vertex x="1.4888" y="-0.1828"/>
-<vertex x="1.4888" y="0.1828"/>
-<vertex x="1.0049" y="0.232" curve="19.000773"/>
-<vertex x="0.8746" y="0.5465"/>
-<vertex x="1.182" y="0.9235"/>
-<vertex x="0.9235" y="1.182"/>
-<vertex x="0.5465" y="0.8746" curve="19.000773"/>
-<vertex x="0.232" y="1.0049"/>
-<vertex x="0.1828" y="1.4888"/>
-<vertex x="-0.1828" y="1.4888"/>
-<vertex x="-0.232" y="1.0049" curve="19.000773"/>
-<vertex x="-0.5465" y="0.8746"/>
-<vertex x="-0.9235" y="1.182"/>
-<vertex x="-1.182" y="0.9235"/>
-<vertex x="-0.8746" y="0.5465" curve="19.000773"/>
-<vertex x="-1.0049" y="0.232"/>
-<vertex x="-1.4888" y="0.1828"/>
-<vertex x="-1.4888" y="-0.1828"/>
-<vertex x="-1.0049" y="-0.232" curve="19.000773"/>
-<vertex x="-0.8746" y="-0.5465"/>
-<vertex x="-1.182" y="-0.9235"/>
-<vertex x="-0.9235" y="-1.182"/>
-<vertex x="-0.5465" y="-0.8746" curve="9.498218"/>
-<vertex x="-0.3947" y="-0.9528"/>
-<vertex x="-0.1794" y="-0.4331" curve="-67.514699"/>
-<vertex x="-0.4688" y="0" curve="-247.473915"/>
-<vertex x="0.1794" y="-0.4331"/>
-</polygon>
 </package>
 <package name="QWIIC_6MM">
 <polygon width="0.0127" layer="21">
@@ -12229,7 +12188,7 @@ These are the minimums &lt;a href=&quot;https://jlcpcb.com/capabilities/Capabili
 <element name="FD1" library="SparkFun-Aesthetics" package="FIDUCIAL-1X2" value="FIDUCIAL1X2" x="49.784" y="3.302" smashed="yes"/>
 <element name="FRAME1" library="SparkFun-Aesthetics" package="CREATIVE_COMMONS" value="FRAME-LEDGER" x="88.9" y="-5.08" smashed="yes">
 <attribute name="DESIGNER" value="Alex Brudner" x="168.91" y="-87.63" size="1.778" layer="27" display="off"/>
-<attribute name="REV" value="v10" x="168.91" y="-87.63" size="1.778" layer="27" display="off"/>
+<attribute name="REV" value="v11" x="168.91" y="-87.63" size="1.778" layer="27" display="off"/>
 </element>
 <element name="H3" library="SparkFun-Hardware" package="STAND-OFF-TIGHT" value="STAND-OFFTIGHT" x="38.1" y="8.89" smashed="yes">
 <attribute name="NAME" x="38.1" y="11.811" size="0.6096" layer="25" font="vector" ratio="20" align="bottom-center"/>
@@ -12477,7 +12436,6 @@ These are the minimums &lt;a href=&quot;https://jlcpcb.com/capabilities/Capabili
 <element name="U$36" library="output" package="#POCI_#_19#0" value="" x="2.032" y="31.75" smashed="yes" rot="MR0"/>
 <element name="U$37" library="output" package="#PICO_#_23#0" value="" x="2.032" y="34.29" smashed="yes" rot="MR0"/>
 <element name="U$38" library="output" package="#SCK_#_18#0" value="" x="2.032" y="36.83" smashed="yes" rot="MR0"/>
-<element name="LOGO5" library="SparkFun-Aesthetics" package="OSHW-LOGO-S" value="OSHW-LOGOS" x="25.4" y="17.78" smashed="yes" rot="MR0"/>
 <element name="U$45" library="output" package="#SHLD#0" value="" x="34.798" y="5.842" smashed="yes" rot="MR0"/>
 <element name="U$46" library="output" package="#I�C#0" value="" x="36.83" y="11.4935" smashed="yes" rot="MR0"/>
 <element name="U$47" library="output" package="STAT_LED0" value="" x="43.18" y="18.415" smashed="yes" rot="MR0"/>
