@@ -30436,13 +30436,9 @@ Output Discharge: 530Ω Typ</text>
 <text x="331.724" y="6.858" size="2.7432" layer="94" font="vector">Based on a design by: Paul Clark</text>
 <text x="106.68" y="35.56" size="2.54" layer="94" font="vector">Qwiic Connectors</text>
 <wire x1="99.06" y1="43.18" x2="99.06" y2="0" width="0.1524" layer="97" style="longdash"/>
-<wire x1="330.2" y1="35.56" x2="330.2" y2="66.04" width="0.1524" layer="97" style="longdash"/>
-<wire x1="330.2" y1="66.04" x2="330.2" y2="106.68" width="0.1524" layer="97" style="longdash"/>
+<wire x1="330.2" y1="35.56" x2="330.2" y2="106.68" width="0.1524" layer="97" style="longdash"/>
 <wire x1="223.52" y1="106.68" x2="223.52" y2="43.18" width="0.1524" layer="97" style="longdash"/>
 <wire x1="223.52" y1="43.18" x2="223.52" y2="0" width="0.1524" layer="97" style="longdash"/>
-<text x="337.82" y="99.06" size="2.54" layer="94" font="vector">HW Versioning</text>
-<wire x1="431.8" y1="66.04" x2="330.2" y2="66.04" width="0.1524" layer="97" style="longdash"/>
-<text x="381" y="71.12" size="1.778" layer="97" font="vector" align="bottom-center">v10 should read ~0.275V</text>
 <text x="165.1" y="142.24" size="1.778" layer="95" font="vector">TP2</text>
 <text x="264.16" y="147.32" size="1.778" layer="95" font="vector">TP3</text>
 <text x="81.28" y="43.18" size="1.778" layer="95" font="vector">TP4</text>
@@ -31001,7 +30997,7 @@ Output Discharge: 530Ω Typ</text>
 <attribute name="NAME" x="187.96" y="81.788" size="1.778" layer="95" font="vector"/>
 </instance>
 <instance part="H1" gate="G$1" x="426.72" y="30.48" smashed="yes"/>
-<instance part="LOGO4" gate="G$1" x="414.02" y="50.8" smashed="yes"/>
+<instance part="LOGO4" gate="G$1" x="414.02" y="43.18" smashed="yes"/>
 <instance part="SUPPLY7" gate="G$1" x="149.86" y="228.6" smashed="yes">
 <attribute name="VALUE" x="149.86" y="231.394" size="1.778" layer="96" align="bottom-center"/>
 </instance>
@@ -31079,19 +31075,19 @@ Output Discharge: 530Ω Typ</text>
 </instance>
 <instance part="LOGO1" gate="G$1" x="332.74" y="33.02" smashed="yes"/>
 <instance part="LOGO2" gate="G$1" x="365.76" y="44.45" smashed="yes"/>
-<instance part="R17" gate="G$1" x="388.62" y="86.36" smashed="yes">
-<attribute name="NAME" x="388.62" y="87.884" size="1.778" layer="95" font="vector" align="bottom-center"/>
-<attribute name="VALUE" x="388.62" y="84.836" size="1.778" layer="96" font="vector" align="top-center"/>
+<instance part="R17" gate="G$1" x="86.36" y="193.04" smashed="yes" rot="R270">
+<attribute name="NAME" x="87.884" y="193.04" size="1.778" layer="95" font="vector" rot="R270" align="bottom-center"/>
+<attribute name="VALUE" x="92.456" y="193.04" size="1.778" layer="96" font="vector" rot="R270" align="top-center"/>
 </instance>
-<instance part="R16" gate="G$1" x="373.38" y="86.36" smashed="yes">
-<attribute name="NAME" x="373.38" y="87.884" size="1.778" layer="95" font="vector" align="bottom-center"/>
-<attribute name="VALUE" x="373.38" y="84.836" size="1.778" layer="96" font="vector" align="top-center"/>
+<instance part="R16" gate="G$1" x="86.36" y="208.28" smashed="yes" rot="R270">
+<attribute name="NAME" x="87.884" y="208.28" size="1.778" layer="95" font="vector" rot="R270" align="bottom-center"/>
+<attribute name="VALUE" x="92.456" y="208.28" size="1.778" layer="96" font="vector" rot="R270" align="top-center"/>
 </instance>
-<instance part="SUPPLY31" gate="G$1" x="365.76" y="88.9" smashed="yes">
-<attribute name="VALUE" x="365.76" y="91.694" size="1.778" layer="96" align="bottom-center"/>
+<instance part="SUPPLY31" gate="G$1" x="86.36" y="215.9" smashed="yes">
+<attribute name="VALUE" x="86.36" y="218.694" size="1.778" layer="96" align="bottom-center"/>
 </instance>
-<instance part="GND36" gate="1" x="396.24" y="81.28" smashed="yes">
-<attribute name="VALUE" x="396.24" y="81.026" size="1.778" layer="96" font="vector" align="top-center"/>
+<instance part="GND36" gate="1" x="86.36" y="182.88" smashed="yes">
+<attribute name="VALUE" x="86.36" y="182.626" size="1.778" layer="96" font="vector" align="top-center"/>
 </instance>
 <instance part="MEAS" gate="JP1" x="139.7" y="139.7" smashed="yes">
 <attribute name="NAME" x="139.7" y="142.494" size="1.778" layer="95" font="vector" align="center"/>
@@ -31403,9 +31399,8 @@ Output Discharge: 530Ω Typ</text>
 <wire x1="17.78" y1="241.3" x2="17.78" y2="238.76" width="0.1524" layer="91"/>
 </segment>
 <segment>
-<wire x1="393.7" y1="86.36" x2="396.24" y2="86.36" width="0.1524" layer="91"/>
 <pinref part="GND36" gate="1" pin="GND"/>
-<wire x1="396.24" y1="86.36" x2="396.24" y2="83.82" width="0.1524" layer="91"/>
+<wire x1="86.36" y1="187.96" x2="86.36" y2="185.42" width="0.1524" layer="91"/>
 <pinref part="R17" gate="G$1" pin="2"/>
 </segment>
 </net>
@@ -31514,9 +31509,8 @@ Output Discharge: 530Ω Typ</text>
 </segment>
 <segment>
 <pinref part="SUPPLY31" gate="G$1" pin="3.3V"/>
-<wire x1="365.76" y1="86.36" x2="365.76" y2="88.9" width="0.1524" layer="91"/>
 <pinref part="R16" gate="G$1" pin="1"/>
-<wire x1="368.3" y1="86.36" x2="365.76" y2="86.36" width="0.1524" layer="91" style="longdash"/>
+<wire x1="86.36" y1="213.36" x2="86.36" y2="215.9" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="SHIELD" class="0">
@@ -32185,19 +32179,17 @@ Output Discharge: 530Ω Typ</text>
 </net>
 <net name="ESP35/A7" class="0">
 <segment>
-<pinref part="U1" gate="U1" pin="IA35"/>
-<wire x1="66.04" y1="200.66" x2="68.58" y2="200.66" width="0.1524" layer="91"/>
-<label x="68.58" y="200.66" size="1.27" layer="95" font="vector" xref="yes"/>
-</segment>
-<segment>
 <pinref part="R17" gate="G$1" pin="1"/>
 <pinref part="R16" gate="G$1" pin="2"/>
-<wire x1="383.54" y1="86.36" x2="381" y2="86.36" width="0.1524" layer="91"/>
-<wire x1="381" y1="86.36" x2="378.46" y2="86.36" width="0.1524" layer="91"/>
-<wire x1="381" y1="86.36" x2="381" y2="78.74" width="0.1524" layer="91"/>
-<wire x1="381" y1="78.74" x2="378.46" y2="78.74" width="0.1524" layer="91"/>
-<junction x="381" y="86.36"/>
-<label x="378.46" y="78.74" size="1.27" layer="95" font="vector" rot="R180" xref="yes"/>
+<wire x1="86.36" y1="198.12" x2="86.36" y2="200.66" width="0.1524" layer="91"/>
+<wire x1="86.36" y1="200.66" x2="86.36" y2="203.2" width="0.1524" layer="91"/>
+<wire x1="86.36" y1="200.66" x2="81.28" y2="200.66" width="0.1524" layer="91"/>
+<wire x1="81.28" y1="200.66" x2="81.28" y2="198.12" width="0.1524" layer="91"/>
+<junction x="86.36" y="200.66"/>
+<label x="81.28" y="198.12" size="1.27" layer="95" font="vector" rot="R270" xref="yes"/>
+<pinref part="U1" gate="U1" pin="IA35"/>
+<wire x1="81.28" y1="200.66" x2="66.04" y2="200.66" width="0.1524" layer="91"/>
+<junction x="81.28" y="200.66"/>
 </segment>
 </net>
 <net name="ESP36/A0" class="0">
