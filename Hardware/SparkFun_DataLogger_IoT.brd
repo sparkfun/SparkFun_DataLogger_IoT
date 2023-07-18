@@ -2417,6 +2417,22 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <wire x1="-0.9262" y1="-0.4262" x2="0.9262" y2="-0.4262" width="0.05" layer="39"/>
 <wire x1="0.9262" y1="-0.4262" x2="0.9262" y2="0.4262" width="0.05" layer="39"/>
 </package>
+<package name="0402-TIGHT_NO_CREAM">
+<smd name="1" x="-0.5" y="0" dx="0.6" dy="0.6" layer="1" cream="no"/>
+<smd name="2" x="0.5" y="0" dx="0.6" dy="0.6" layer="1" cream="no"/>
+<text x="0" y="0.562" size="0.6096" layer="25" font="vector" ratio="20" align="bottom-center">&gt;NAME</text>
+<text x="0" y="-0.562" size="0.6096" layer="27" font="vector" ratio="20" align="top-center">&gt;VALUE</text>
+<wire x1="-0.5" y1="-0.25" x2="-0.5" y2="0.25" width="0.002540625" layer="51"/>
+<wire x1="-0.5" y1="0.25" x2="0.5" y2="0.25" width="0.002540625" layer="51"/>
+<wire x1="0.5" y1="0.25" x2="0.5" y2="-0.25" width="0.002540625" layer="51"/>
+<wire x1="0.5" y1="-0.25" x2="-0.5" y2="-0.25" width="0.002540625" layer="51"/>
+<rectangle x1="-0.5" y1="-0.25" x2="-0.3" y2="0.25" layer="51"/>
+<rectangle x1="0.3" y1="-0.25" x2="0.5" y2="0.25" layer="51" rot="R180"/>
+<wire x1="0.9262" y1="0.4262" x2="-0.9262" y2="0.4262" width="0.05" layer="39"/>
+<wire x1="-0.9262" y1="0.4262" x2="-0.9262" y2="-0.4262" width="0.05" layer="39"/>
+<wire x1="-0.9262" y1="-0.4262" x2="0.9262" y2="-0.4262" width="0.05" layer="39"/>
+<wire x1="0.9262" y1="-0.4262" x2="0.9262" y2="0.4262" width="0.05" layer="39"/>
+</package>
 </packages>
 </library>
 <library name="SparkFun-Switches">
@@ -11846,22 +11862,6 @@ Pasted was reduced by 40% width on the center ground pad, and some amount on the
 <wire x1="0.24" y1="1" x2="0.24" y2="-1" width="0.2032" layer="21"/>
 <wire x1="0.24" y1="1" x2="0.24" y2="-1" width="0.2032" layer="21" curve="-180"/>
 </package>
-<package name="0402-TIGHT">
-<smd name="1" x="-0.5" y="0" dx="0.6" dy="0.6" layer="1"/>
-<smd name="2" x="0.5" y="0" dx="0.6" dy="0.6" layer="1"/>
-<text x="0" y="0.562" size="0.6096" layer="25" font="vector" ratio="20" align="bottom-center">&gt;NAME</text>
-<text x="0" y="-0.562" size="0.6096" layer="27" font="vector" ratio="20" align="top-center">&gt;VALUE</text>
-<wire x1="-0.5" y1="-0.25" x2="-0.5" y2="0.25" width="0.002540625" layer="51"/>
-<wire x1="-0.5" y1="0.25" x2="0.5" y2="0.25" width="0.002540625" layer="51"/>
-<wire x1="0.5" y1="0.25" x2="0.5" y2="-0.25" width="0.002540625" layer="51"/>
-<wire x1="0.5" y1="-0.25" x2="-0.5" y2="-0.25" width="0.002540625" layer="51"/>
-<rectangle x1="-0.5" y1="-0.25" x2="-0.3" y2="0.25" layer="51"/>
-<rectangle x1="0.3" y1="-0.25" x2="0.5" y2="0.25" layer="51" rot="R180"/>
-<wire x1="0.9262" y1="0.4262" x2="-0.9262" y2="0.4262" width="0.05" layer="39"/>
-<wire x1="-0.9262" y1="0.4262" x2="-0.9262" y2="-0.4262" width="0.05" layer="39"/>
-<wire x1="-0.9262" y1="-0.4262" x2="0.9262" y2="-0.4262" width="0.05" layer="39"/>
-<wire x1="0.9262" y1="-0.4262" x2="0.9262" y2="0.4262" width="0.05" layer="39"/>
-</package>
 </packages>
 </library>
 </libraries>
@@ -12473,16 +12473,13 @@ These are the minimums &lt;a href=&quot;https://jlcpcb.com/capabilities/Capabili
 </element>
 <element name="LOGO1" library="SparkFun-Aesthetics" package="SFE_LOGO_NAME_.2" value="SFE_LOGO_NAME.2_INCH" x="25.4" y="31.75" smashed="yes" rot="MR0"/>
 <element name="LOGO2" library="SparkFun-Aesthetics" package="SFE_LOGO_FLAME_.2" value="SFE_LOGO_FLAME.2_INCH" x="44.45" y="30.48" smashed="yes"/>
-<element name="R17" library="RA_RGB" package="0402-TIGHT" value="9.1K" x="10.668" y="32.385" smashed="yes" rot="R180">
+<element name="R17" library="SparkFun-Resistors" package="0402-TIGHT_NO_CREAM" value="DNP" x="10.668" y="32.385" smashed="yes" rot="R180">
 <attribute name="NAME" x="10.668" y="31.823" size="0.6096" layer="25" font="vector" ratio="20" rot="R180" align="bottom-center"/>
-<attribute name="PN" value="RC0402FR-079K1L" x="10.668" y="32.385" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="PROD_ID" value="RES-18504" x="10.668" y="32.385" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="VALUE" value="9.1K" x="10.668" y="32.947" size="0.6096" layer="27" font="vector" ratio="20" rot="R180" align="top-center"/>
+<attribute name="VALUE" value="DNP" x="10.668" y="32.947" size="0.6096" layer="27" font="vector" ratio="20" rot="R180" align="top-center"/>
 </element>
-<element name="R16" library="SparkFun-Resistors" package="0402-TIGHT" value="100k" x="14.986" y="32.893" smashed="yes" rot="R270">
+<element name="R16" library="SparkFun-Resistors" package="0402-TIGHT_NO_CREAM" value="DNP" x="14.986" y="32.893" smashed="yes" rot="R270">
 <attribute name="NAME" x="15.548" y="32.893" size="0.6096" layer="25" font="vector" ratio="20" rot="R270" align="bottom-center"/>
-<attribute name="PROD_ID" value="RES-13495" x="14.986" y="32.893" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="VALUE" value="100k" x="14.424" y="32.893" size="0.6096" layer="27" font="vector" ratio="20" rot="R270" align="top-center"/>
+<attribute name="VALUE" value="DNP" x="14.424" y="32.893" size="0.6096" layer="27" font="vector" ratio="20" rot="R270" align="top-center"/>
 </element>
 <element name="U$8" library="output" package="#_CHG#0" value="" x="10.795" y="4.826" smashed="yes" rot="MR90"/>
 <element name="U$5" library="output" package="#STAT_#0" value="" x="16.1036" y="1.778" smashed="yes" rot="MR0"/>
