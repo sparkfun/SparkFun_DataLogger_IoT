@@ -12322,11 +12322,10 @@ These are the minimums &lt;a href=&quot;https://jlcpcb.com/capabilities/Capabili
 <attribute name="PROD_ID" value="IC-14038" x="44.45" y="-82.55" size="1.778" layer="27" display="off"/>
 <attribute name="VALUE" x="21.59" y="10.16" size="0.6096" layer="27"/>
 </element>
-<element name="U8" library="SparkFun-IC-Power" package="SOT23-5" value="XC6222B331MR-G" x="41.275" y="21.59" smashed="yes" rot="R90">
-<attribute name="IOUT" value="700mA" x="41.275" y="21.59" size="1.778" layer="27" rot="R90" display="off"/>
+<element name="U8" library="SparkFun-IC-Power" package="SOT23-5" value="3.3V" x="41.275" y="21.59" smashed="yes" rot="R90">
 <attribute name="NAME" x="39.116" y="19.812" size="0.6096" layer="25" ratio="20" rot="R90"/>
-<attribute name="PROD_ID" value="VREG-16775" x="135.255" y="83.82" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="VOUT" value="3.3V" x="41.275" y="21.59" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="PROD_ID" value="VREG-12457" x="135.255" y="83.82" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="VALUE" value="3.3V" x="41.275" y="21.59" size="1.778" layer="27" rot="R90" display="off"/>
 </element>
 <element name="U7" library="SparkFun-IC-Power" package="DFN-8" value="MAX17048" x="4.953" y="15.875" smashed="yes">
 <attribute name="NAME" x="4.953" y="17.399" size="0.254" layer="25" font="vector" align="bottom-center"/>
@@ -12338,11 +12337,10 @@ These are the minimums &lt;a href=&quot;https://jlcpcb.com/capabilities/Capabili
 <attribute name="PROD_ID" value="IC-09995" x="66.421" y="-78.105" size="1.778" layer="27" display="off"/>
 <attribute name="VALUE" x="6.223" y="13.081" size="0.6096" layer="27" ratio="20"/>
 </element>
-<element name="U3" library="SparkFun-IC-Power" package="SOT23-5" value="XC6222B331MR-G" x="12.7" y="21.59" smashed="yes" rot="R270">
-<attribute name="IOUT" value="700mA" x="12.7" y="21.59" size="1.778" layer="27" rot="R270" display="off"/>
+<element name="U3" library="SparkFun-IC-Power" package="SOT23-5" value="3.3V" x="12.7" y="21.59" smashed="yes" rot="R270">
 <attribute name="NAME" x="14.859" y="23.368" size="0.6096" layer="25" ratio="20" rot="R270"/>
-<attribute name="PROD_ID" value="VREG-16775" x="-81.28" y="-44.45" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="VOUT" value="3.3V" x="12.7" y="21.59" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="PROD_ID" value="VREG-12457" x="-81.28" y="-44.45" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="VALUE" value="3.3V" x="12.7" y="21.59" size="1.778" layer="27" rot="R270" display="off"/>
 </element>
 <element name="C4" library="SparkFun-Capacitors" package="0402-TIGHT" value="2.2uF" x="17.272" y="13.97" smashed="yes" rot="R270">
 <attribute name="NAME" x="17.834" y="13.97" size="0.6096" layer="25" font="vector" ratio="20" rot="R270" align="bottom-center"/>

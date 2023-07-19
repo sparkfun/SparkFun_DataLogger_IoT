@@ -29574,12 +29574,33 @@ Pasted was reduced by 40% width on the center ground pad, and some amount on the
 </symbol>
 </symbols>
 <devicesets>
-<deviceset name="XC6222" prefix="U">
+<deviceset name="V_REG_AP2112" prefix="U">
+<description>&lt;h3&gt;AP2112 - 600mA CMOS LDO Regulator w/ Enable&lt;/h3&gt;
+&lt;p&gt;The AP2112 is CMOS process low dropout linear regulator with enable function, the regulator delivers a guaranteed 600mA (min.) continuous load current.&lt;/p&gt;
+&lt;p&gt;Features&lt;br&gt;
+&lt;ul&gt;
+&lt;li&gt;Output Voltage Accuracy: ±1.5% &lt;/li&gt;
+&lt;li&gt;Output Current: 600mA (Min.) &lt;/li&gt;
+&lt;li&gt;Foldback Short Current Protection: 50mA &lt;/li&gt;
+&lt;li&gt;Enable Function to Turn ON/OFF VOUT&lt;/li&gt;
+&lt;li&gt;Low Dropout Voltage (3.3V): 250mV (Typ.) @IOUT=600mA &lt;/li&gt;
+&lt;li&gt;Excellent Load Regulation: 0.2%/A (Typ.) &lt;/li&gt;
+&lt;li&gt;Excellent Line Regulation: 0.02%/V (Typ.) &lt;/li&gt;
+&lt;li&gt;Low Quiescent Current: 55μA (Typ.)&lt;/li&gt;
+&lt;li&gt;Low Standby Current: 0.01μA (Typ.)&lt;/li&gt;
+&lt;li&gt;Low Output Noise: 50μVRMS &lt;/li&gt;
+&lt;li&gt;PSRR: 100Hz -65dB, 1kHz -65dB &lt;/li&gt;
+&lt;li&gt; OTSD Protection &lt;/li&gt;
+&lt;li&gt;Stable  with  1.0μF Flexible Cap: Ceramic, Tantalum and Aluminum Electrolytic &lt;/li&gt;
+&lt;li&gt;Operation Temperature Range: -40°C to 85°C &lt;/li&gt;
+&lt;li&gt;ESD: MM 400V, HBM 4000V&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/p&gt;</description>
 <gates>
 <gate name="G$1" symbol="V-REG-LDO_NO-BP" x="0" y="0"/>
 </gates>
 <devices>
-<device name="B331MR-G" package="SOT23-5">
+<device name="K-3.3V" package="SOT23-5">
 <connects>
 <connect gate="G$1" pin="EN" pad="3"/>
 <connect gate="G$1" pin="GND" pad="2"/>
@@ -29588,9 +29609,8 @@ Pasted was reduced by 40% width on the center ground pad, and some amount on the
 </connects>
 <technologies>
 <technology name="">
-<attribute name="IOUT" value="700mA" constant="no"/>
-<attribute name="PROD_ID" value="VREG-16775" constant="no"/>
-<attribute name="VOUT" value="3.3V" constant="no"/>
+<attribute name="PROD_ID" value="VREG-12457"/>
+<attribute name="VALUE" value="3.3V"/>
 </technology>
 </technologies>
 </device>
@@ -30109,7 +30129,7 @@ features two input/output terminals (nY and nZ) and an active HIGH enable input 
 <part name="SUPPLY10" library="SparkFun-PowerSymbols" deviceset="3.3V_SW" device=""/>
 <part name="C25" library="SparkFun-Capacitors" deviceset="2.2UF" device="-0402_TIGHT-10V-10%-X5R" value="2.2uF"/>
 <part name="GND16" library="SparkFun-PowerSymbols" deviceset="GND" device=""/>
-<part name="U8" library="SparkFun-IC-Power" deviceset="XC6222" device="B331MR-G" value="XC6222B331MR-G"/>
+<part name="U8" library="SparkFun-IC-Power" deviceset="V_REG_AP2112" device="K-3.3V" value="3.3V"/>
 <part name="GND17" library="SparkFun-PowerSymbols" deviceset="GND" device=""/>
 <part name="SUPPLY11" library="SparkFun-PowerSymbols" deviceset="3.3V_SW" device=""/>
 <part name="C26" library="SparkFun-Capacitors" deviceset="2.2UF" device="-0402_TIGHT-10V-10%-X5R" value="2.2uF"/>
@@ -30144,7 +30164,7 @@ features two input/output terminals (nY and nZ) and an active HIGH enable input 
 <part name="C23" library="SparkFun-Capacitors" deviceset="0.1UF" device="-0402T-6.3V-10%-X7R" value="0.1uF"/>
 <part name="SUPPLY20" library="SparkFun-PowerSymbols" deviceset="V_BATT" device=""/>
 <part name="GND30" library="SparkFun-PowerSymbols" deviceset="GND" device=""/>
-<part name="U3" library="SparkFun-IC-Power" deviceset="XC6222" device="B331MR-G" value="XC6222B331MR-G"/>
+<part name="U3" library="SparkFun-IC-Power" deviceset="V_REG_AP2112" device="K-3.3V" value="3.3V"/>
 <part name="C13" library="SparkFun-Capacitors" deviceset="2.2UF" device="-0402_TIGHT-10V-10%-X5R" value="2.2uF"/>
 <part name="C14" library="SparkFun-Capacitors" deviceset="0.1UF" device="-0402T-6.3V-10%-X7R" value="0.1uF"/>
 <part name="GND31" library="SparkFun-PowerSymbols" deviceset="GND" device=""/>
@@ -30293,9 +30313,9 @@ features two input/output terminals (nY and nZ) and an active HIGH enable input 
 <text x="281.686" y="160.274" size="1.778" layer="97" font="vector" align="top-center">Charge Current: 500mA</text>
 <text x="48.006" y="272.034" size="1.778" layer="97" font="vector" align="top-center">VDD Range: 3.0V - 3.6V</text>
 <text x="172.466" y="150.114" size="1.778" layer="97" font="vector">Vin Max: 6.0V
-Iout Max: 700mA
-Vdo: 120mV @ 330mA
-Output Discharge: 530Ω Typ</text>
+Iout Max: 600mA
+Vdo: 250mV @ 600mA
+Output Discharge: 60Ω Typ</text>
 <text x="276.86" y="185.42" size="1.778" layer="97" font="vector" align="top-center">If DTR is LOW, toggling RTS from HIGH to LOW resets to run mode.
 If RTS is HIGH, toggling DTR from LOW to HIGH resets to bootloader.</text>
 <wire x1="248.92" y1="207.01" x2="259.08" y2="207.01" width="0.2032" layer="97"/>
@@ -30363,9 +30383,9 @@ If RTS is HIGH, toggling DTR from LOW to HIGH resets to bootloader.</text>
 <wire x1="254" y1="135.89" x2="255.27" y2="137.16" width="0.1524" layer="97"/>
 <wire x1="254" y1="127" x2="255.27" y2="125.73" width="0.1524" layer="97"/>
 <text x="385.826" y="213.614" size="1.778" layer="97" font="vector">Vin Max: 6.0V
-Iout Max: 700mA
-Vdo: 120mV @ 330mA
-Output Discharge: 530Ω Typ</text>
+Iout Max: 600mA
+Vdo: 250mV @ 600mA
+Output Discharge: 60Ω Typ</text>
 <text x="331.724" y="6.858" size="2.7432" layer="94" font="vector">Based on a design by: Paul Clark</text>
 <text x="106.68" y="35.56" size="2.54" layer="94" font="vector">Qwiic Connectors</text>
 <wire x1="99.06" y1="43.18" x2="99.06" y2="0" width="0.1524" layer="97" style="longdash"/>
