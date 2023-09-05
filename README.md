@@ -1,7 +1,7 @@
 SparkFun DataLogger IoT
 ========================================
 
-[![SparkFun DataLogger IoT](URL for picture of part)](https://www.sparkfun.com/products/22462)
+[![SparkFun DataLogger IoT](https://cdn.sparkfun.com/r/600-600/assets/parts/2/2/5/2/7/22462-_DEV-_01.jpg)](https://www.sparkfun.com/products/22462)
 
 [*SparkFun DataLogger IoT (DEV-22462)*](https://www.sparkfun.com/products/22462)
 
@@ -26,7 +26,7 @@ Product Versions
 
 Version History
 ---------------
-* [v1.0](URL for tag specific to this version) - Initial Release
+* v1.0 - Initial Release
 
 License Information
 -------------------
