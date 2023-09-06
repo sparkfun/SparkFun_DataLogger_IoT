@@ -31,7 +31,7 @@ Version History
 License Information
 -------------------
 
-The hardware is is _**open source**_! 
+The hardware is _**open source**_! 
 
 Please review the LICENSE.md file for license information. 
 
