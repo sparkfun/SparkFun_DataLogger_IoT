@@ -55,8 +55,6 @@
 #define GNSS_CS 33   // Connect the ZED-F9P CS pin to DataLogger IoT pin 33
 #define EN_3V3_SW 32 // The 3.3V_SW regulator Enable pin is connected to D32
 #define STAT_LED 25  // The DataLogger IoT STAT LED is connected to pin 25
-#define IMU_CS 5     // The ISM330 IMU CS is connected to pin 5
-#define MAG_CS 27    // The MMC5983 Mag CS is connected to pin 27
 
 #include "FS.h"
 #include "SD_MMC.h"
@@ -116,10 +114,6 @@ void setup()
 
   pinMode(GNSS_CS, OUTPUT);
   digitalWrite(GNSS_CS, HIGH);
-  pinMode(IMU_CS, OUTPUT);
-  digitalWrite(IMU_CS, HIGH);
-  pinMode(MAG_CS, OUTPUT);
-  digitalWrite(MAG_CS, HIGH);
 
   spiPort.begin();
 
