@@ -10,7 +10,7 @@ SparkFun DataLogger IoT
 Repository Contents
 -------------------
 
-* **/Enclosure** - Enclosure files 
+<!-- * **/Enclosure** - Enclosure files --> 
 * **/Examples** - Test code 
 * **/Hardware** - Eagle design files (.brd, .sch)
 * **/Production** - Production panel files (.brd)
@@ -26,7 +26,7 @@ Product Versions
 
 Version History
 ---------------
-* v1.0 - Initial Release
+* v1.1 - Initial Release
 
 License Information
 -------------------
